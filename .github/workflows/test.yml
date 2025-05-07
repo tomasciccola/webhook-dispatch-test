@@ -2,6 +2,7 @@ name: Node.js CI
 
 on:
   repository_dispatch:
+    types: [run-npm-start]
 
 jobs:
   run-npm-start:
