@@ -4,7 +4,6 @@ on:
   repository_dispatch:
     types: [run-npm-start]
 
-
 jobs:
   run-npm-start:
     runs-on: ubuntu-latest
